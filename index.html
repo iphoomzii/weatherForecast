@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <title>WeatherForecast</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Weather Forecast</h1>
+    </div>
+
+    <div class="main">
+      <canvas id="myChart" style="max-width: 756px;"></canvas>
+      <div id="pics"></div> 
+   </div>
+
+    <div class="footer">
+      <div class="content">
+        <div class="button"><div class="BKK">BKK</div></div>
+        <div class="button"><div class="CNX">CNX</div></div>
+      </div>
+
+      <div class="content">
+        <div class="button"><div class="daily">Daily</div></div>
+        <div class="button"><div class="3hrs">3 Hours</div></div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.10.2.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>

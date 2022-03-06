@@ -1,0 +1,55 @@
+body {
+  font-family: "Itim", cursive;
+  font-weight: bold;
+  background-color: lightcyan;
+  text-align: center;
+}
+
+.main{
+  margin-top: 8%;
+  text-align: center;
+}
+
+
+.header {
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 0%;
+  width: 100%;
+  background-color: midnightblue;
+  color: whitesmoke;
+  font-size: 4rem;
+}
+
+.button {
+  background-color: white;
+  color: darkcyan;
+  border: 2px solid lightskyblue;
+  border-radius: 0.3em;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition-duration: 0.2s;
+}
+
+.button:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  left: 0;
+  bottom: 12%;
+  width: 100%;
+}
+
+.footer .content {
+  display: float;
+  text-align: center;
+}
